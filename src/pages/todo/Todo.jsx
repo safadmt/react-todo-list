@@ -35,6 +35,7 @@ function Todo() {
   }
   return (
     <div className="todo">
+      <h3>Todo App</h3>
       {state.showAddTodo && (
         <InputWithBtn
           topic={topic}
