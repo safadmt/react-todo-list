@@ -1,0 +1,20 @@
+.todo{
+    width: max(600px);
+    width: min(400px);
+    background-color: white;
+    padding: 2rem;
+    border-radius: 20px;
+    height: 50vh;
+    position: relative;
+    overflow-y: auto;
+}
+.edit{
+    display: flex;
+
+}
+.canceldiv{
+    padding: 6px 15px;;
+}
+.inputedit{
+    flex:1
+}

@@ -1,0 +1,38 @@
+.addTodo {
+    display: flex;
+  border-radius: 25px;
+  overflow: hidden;
+  border: 2px solid #ccc;
+  margin-bottom: 1rem;
+}
+input{
+    
+    flex: 1;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+}
+.btnaddtodo{
+    padding: 10px 20px;
+  background-color: #da1560;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.todocontent{
+    display: flex; 
+    background-color: white;
+    border: 2px solid #ccc;
+    padding: 10px 15px;
+    font-size: large;
+    gap: 20px;
+    border-radius: 25px;
+    margin-bottom: 5px;
+}
+.taskcontent{
+    flex: 1;
+    width: 70%;
+}
+.edit,.cancel, .delete:hover{
+    cursor: pointer;
+}
