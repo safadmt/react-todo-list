@@ -69,6 +69,4 @@ This application uses `useReducer` and `useContext` for state management. The st
 - Delete todo items.
 - Toggle between add and edit modes.
 
-## License
 
-This project is licensed under the MIT License.
